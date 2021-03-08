@@ -1,0 +1,60 @@
+.home-page-part {
+  background-image: url("../images/bg-greece.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+  position: relative;
+  background-size: cover;
+  z-index: -1;
+  background-size: 100% 100%;
+  background-position: cover;
+}
+
+.text-block {
+    padding-top: 250px;
+}
+
+.main-text, .text-page {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    animation: bounceInDown ease 0.8s;
+} 
+
+.main-text {
+    font-weight: 800;
+    text-shadow: 0 0 4px black, 0 0 7px #0000FF;
+    font-size: 40px;
+}
+
+.text-page {
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 4px black, 0 0 7px #0000FF;
+}
+
+@keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(30px);
+    }
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ } 
+
+@media (max-width: 600px) {
+    .home-page-part {
+        height: 400px;
+    }
+
+    .text-block {
+        padding-top: 150px;
+    }
+}

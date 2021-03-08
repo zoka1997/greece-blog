@@ -1,0 +1,48 @@
+.section-home-page {
+    height: 550px;
+    background-color: white;
+}
+
+.card-grp {
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-section-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.texttt {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+}
+
+.basic-text {
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px  grey;
+}
+
+@media (max-width: 600px) {
+    .section-home-page {
+        height: 1070px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) { 
+    .section-home-page {
+        height: 820px;
+    }
+}

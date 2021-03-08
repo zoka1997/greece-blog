@@ -1,0 +1,32 @@
+.tour-title, .tour-txt {
+    font-family: 'Times New Roman', Times, serif;
+}
+.tour-txt {
+font-weight: 500;
+padding: 0px 20px;
+}
+
+.tour-title {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.card-tour-second {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+display: inline-block;
+margin: 15px;
+}
+
+
+.tour-img {
+    height: 200px;
+    box-shadow: 0 0 3px 1px blue;
+}
+
+.tourlist-section {
+    background-color: rgb(252, 249, 244);
+    padding: 100px 110px;
+}
+

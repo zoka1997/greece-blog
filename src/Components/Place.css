@@ -1,0 +1,15 @@
+.basic-text1 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px  grey;
+}
+
+.main-text-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

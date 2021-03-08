@@ -1,0 +1,57 @@
+.footer-page-part {
+    background-color: rgb(0, 0, 50);
+    color: rgb(228, 228, 228);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text-uppercase {
+    font-weight: bold;
+}
+
+.parag {
+    color: aliceblue;
+}
+
+.base-link {
+    color: aliceblue;
+}
+
+.base-link:hover {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.ftt {
+    color: aliceblue;
+}
+
+
+.ftt:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.content-footer {
+    padding-left: 200px;
+}
+
+@media (max-width: 600px) { 
+    .content-footer {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) { 
+    .content-footer {
+        padding-left: 80px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .content-footer {
+        padding-left: 140px;
+    }
+
+}

@@ -1,0 +1,63 @@
+.contactus {
+      background-color: white;
+      height: 580px;
+  }
+
+form {
+    margin-top: 80px;
+    padding: 50px 50px;
+    width: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h4-cc {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px  grey;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-block {
+    background-color:blue;
+    cursor: pointer;
+}
+
+
+  @media (max-width: 600px) {
+    .contactus {
+        height: 600px;
+    }
+
+    .forms {
+        padding: 0 10px;
+    }
+ }
+
+ @media (min-width: 768px) {
+     .contactus {
+         height: 700px;
+         padding-top: 50px;
+     }
+     .forms {
+        padding: 0 70px;
+    }
+ }
+
+  @media (min-width: 1024px) {
+   .contactus {
+       padding-top: 115px;
+       height: 1070px
+   }
+   form {
+    margin-top: 200px;
+   }
+   .forms {
+    padding: 0 130px;
+}
+ }
